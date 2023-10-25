@@ -1,0 +1,13 @@
+@keyframes moveBall {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(calc(100vw - 100px), calc(100vh - 100px));
+    }
+  }
+  
+  .animated-ball {
+    animation: moveBall 5s linear infinite; /* Adjust the duration and timing function as needed */
+  }
+  
