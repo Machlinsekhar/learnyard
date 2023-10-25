@@ -5,7 +5,8 @@ import one from '../images/car/1.png'
 import two from '../images/car/2.png';
 import three from '../images/car/3.png';
 
-import Slider from 'react-slick';
+import Slider from 'react-slick';git config --global core.autocrlf true
+
 
 const images = [
   one, two, three, 
