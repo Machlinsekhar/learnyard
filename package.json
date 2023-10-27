@@ -1,6 +1,7 @@
 {
   "name": "thelearnyard",
   "version": "0.1.0",
+  "homepage": "https://machlinsekhar.github.io/learnyard/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
