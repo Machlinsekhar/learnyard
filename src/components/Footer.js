@@ -1,17 +1,17 @@
 import React from 'react';
-import { FiInstagram, FiTwitter, FiLinkedin, FiMail, FiPhone } from 'react-icons/fi'; // Import icons
-// import Map from './Map'; 
+import { FiInstagram, FiYoutube, FiFacebook, FiMail, FiPhone } from 'react-icons/fi'; // Import icons
+import Map from './Map'; 
 import "../Footer.css";
 
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-[#1400F6] to-[#3497F9] text-white p-8 font-lexend">
+    <footer className="bg-[#070a47] text-white p-8 font-lexend">
       <div className="container mx-auto flex flex-wrap">
         <div className="w-full  lg:w-1/3">
           <h2 className="text-xl font-semibold mb-2">Details</h2>
-          <p className="text-gray-200 ">Source Verse Limited Liability Partnership</p>
-          <p className="text-gray-200">Ed-Tech Venture</p>
+          <p className="text-gray-200 ">Reach Us At</p>
+          <p className="text-gray-200">Vashi • Sanpada • Kharghar • Aurum</p>
           {/* <div className="mt-4 pt-3 flex">
             <input
               type="email"
@@ -23,36 +23,40 @@ const Footer = () => {
             </button>
           </div> */}
           <div className="mt-4 pt-3 flex space-x-4">
-            <a href="https://instagram.com/sourcecatalyst?igshid=MzRlODBiNWFlZA==" className="text-white"><FiInstagram /></a>
-            <a href="https://twitter.com/sourcecatalyst" className="text-white"><FiTwitter /></a>
-            <a href="https://www.linkedin.com/company/source-catalyst/?viewAsMember=true" className="text-white"><FiLinkedin /></a>
+            <a href="https://www.instagram.com/thelearnyard/" className="text-white"><FiInstagram /></a>
+            <a href="https://twitter.com/sourcecatalyst" className="text-white"><FiYoutube /></a>
+            <a href="https://www.linkedin.com/company/source-catalyst/?viewAsMember=true" className="text-white"><FiFacebook/></a>
           </div>
           <div className="mt-4 flex space-x-2 pt-3 text-gray-200">
-            <FiMail href='mailto:thesourcecatalyst@gmail.com'/>
-            <p>thesourcecatalyst@gmail.com</p>
+            <FiMail href='mailto:thelearnyard@gmail.com'/>
+            <p>thelearnyard@gmail.com</p>
           </div>
           <div className="mt-2 flex space-x-2 text-gray-200">
-            <FiPhone href='tel:9321488165'/>
-            <p>9321488165</p>
+            <FiPhone href='tel:89281 85515'/>
+            <p> 8082493545 8928185515</p>
           </div>
         </div>
         <div className="w-full lg:w-1/3 mt-6 lg:mt-0 ">
-          <h2 className="text-xl font-semibold mb-2">Useful Links</h2>
+          <h2 className="text-xl font-semibold mb-2">Links</h2>
           <ul>
-            <li className='p-2'><a href="https://merchant.razorpay.com/policy/MLxtKHxqa6MVYs/terms" className="text-gray-200">Terms & Conditions</a></li>
-            <li className='p-2'><a href="https://merchant.razorpay.com/policy/MLxtKHxqa6MVYs/privacy" className="text-gray-200">Privacy Policy</a></li>
-            <li className='p-2'><a href="https://merchant.razorpay.com/policy/MLxtKHxqa6MVYs/refund" className="text-gray-200">Cancellation & Refund</a></li>
-            {/* <li className='p-2'><a href="https://merchant.razorpay.com/policy/MLxtKHxqa6MVYs/shipping" className="text-gray-200">Shipping & Delivery</a></li> */}
-          </ul>
+            <li className='p-2'><a href="/" className="text-gray-200">Home</a></li>
+            <li className='p-2'><a href="/" className="text-gray-200">About Us</a></li>
+            <li className='p-2'><a href="/" className="text-gray-200">Centers</a></li>
+            <li className='p-2'><a href="/" className="text-gray-200">Photos</a></li>
+            <li className='p-2'><a href="/" className="text-gray-200">Contact Us</a></li>
+            <li className='p-2'><a href="/" className="text-gray-200">Social Responsibility</a></li>
+            </ul>
         </div>
         <div className="w-full lg:w-1/3 mt-6 lg:mt-0">
           <h2 className="text-xl font-semibold mb-2">Location</h2>
-          {/* <Map /> Insert your map component here */}
+          <Map /> 
+          {/* Insert your map component here */}
         </div>
       </div>
       <hr className="my-8 border-gray-200" />
       <div className="container mx-auto flex flex-col items-center justify-center lg:flex-row lg:justify-between">
-        <p className="text-gray-200">&copy; 2023 Source Catalyst. All rights reserved.</p>
+      <p className="text-gray-200">&copy; 2023 The Learnyard. All rights reserved. Site created by <span className='text-[#FFA100]'>1trillionclub</span></p>
+
       </div>
     </footer>
   );

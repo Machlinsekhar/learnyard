@@ -9,8 +9,6 @@ import Paper from '@mui/material/Paper';
 import { styled } from '@mui/material/styles';
 import program1 from '../images/Program1.jpg';
 import program2 from '../images/Program2.jpeg'
-import bluearraow from '../images/arrow.png';
-import bluearraow2 from '../images/arrow2.png';
 import Card from './Card';
 import skill from '../images/skill.JPG';
 import experience from '../images/experience.jpg';
@@ -21,12 +19,22 @@ import lp2 from '../images/lp2.jpg';
 import lp3 from '../images/lp3.jpg';
 import Numbers from './Numbers';
 import Footer from './Footer';
+import Image from './Image';
+import Testimonials from './Testimonials';
+import Supporter from './Supporter';
+
 
 const Home = () => {
     const buttonStyle = {
         backgroundColor: '#FFA100',
         color: 'white', // Set text color to white for better visibility
         fontSize: '16px',
+    };
+
+    const buttonStyle1 = {
+        backgroundColor: '#FFA100',
+        color: 'white', // Set text color to white for better visibility
+        fontSize: '14px',
     };
 
     const why = [
@@ -57,7 +65,7 @@ const Home = () => {
         padding: 20,
         ...theme.typography.body2,
         textAlign: 'center',
-        backgroundColor: '#FFA100',
+        backgroundColor: '#F9B234',
         fontSize: '18px',
         color: '#ffff',
         borderRadius: '30px',
@@ -100,18 +108,24 @@ const Home = () => {
                     <div className='flex flex-column items-center'>
                         <ProgramCard image={program2} />
                         <div>
-                            <h1 className='text-2xl mt-4 text-[#1b21af] ml-32' style={{ fontWeight: '700' }}>After School</h1>
-                            <img src={bluearraow2} alt='Blue Arrow' className='w-32 h-32 ml-32' />
+                            <h1 className='text-xl font-semibold mb-3 text-[#070a47] mt-4' style={{ fontWeight: '700' }}>AFTER SCHOOL PROGRAMS:</h1>
+                            <p className='text-[#2f3159] text-lg mr-10'>The Sports program provides an opportunity for children to take part in competitive sport at multiple levels</p>
+                            <div className='mt-8 mb-40 flex justify-center '>
+                            <Button variant="contained" style={buttonStyle1}>Read More</Button>
+                        </div>
                         </div>
 
                     </div>
                 </div>
                 <div className='flex justify-center '>
-                    <div className='flex flex-column items-center ml-32 my-20'>
+                    <div className='flex flex-column items-center ml-32  mr-10'>
                         <div>
 
-                            <h1 className='text-2xl mt-4 text-[#1b21af] mr-32' style={{ fontWeight: '700' }}>In School</h1>
-                            <img src={bluearraow} alt='Blue Arrow' className='w-32 h-32 mr-32' />
+                            <h1 className='text-xl font-semibold mb-3 text-[#070a47] mt-4' style={{ fontWeight: '700' }}>IN SCHOOL PROGRAMS:</h1>
+                            <p className='text-[#2f3159] text-lg mr-5'>Integrate our structured sports curriculum in your school for the overall health and fitness of the children.</p>
+                            <div className='mt-8 flex justify-center '>
+                            <Button variant="contained" style={buttonStyle1}>Read More</Button>
+                        </div>
                         </div>
                         <ProgramCard image={program1} />
                     </div>
@@ -129,7 +143,9 @@ const Home = () => {
                         ))}
                     </div>
                 </div>
-
+                {/* <TitleBlock title='SO FAR..' 
+                            subtitle='Leaving Positive Footprints Across'/> */}
+                <Numbers  />
                 <TitleBlock
                     title='THE LEARNYARD PROGRAMS'
                     subtitle='Through our network of excellence centres in Navi Mumbai and Thane, we focus on Kinesthetic Learning Styles – because a practical approach enables the child to put their learning into practice as a life skill.'
@@ -151,13 +167,18 @@ const Home = () => {
                         age=' 4 to 10 Years '
                         description=' Identifying raw talent from peers and encouraging them' />
                 </div>
-                <TitleBlock title='SO FAR..' 
-                            subtitle='Leaving Positive Footprints Across'/>
-                <Numbers  />
+                
 
-                <TitleBlock title='EVENTS' />
-                <Footer/>
+                <TitleBlock title='LIFE AT LEARNYARD'
+                            subtitle='Our training centres boast of an environment that allows a child to become a lifelong learner of Sports, Fitness and Education.' />
+
+              <Image/>  
+              <Testimonials/>
+            <TitleBlock title='Our Supporters'/>
+            <Supporter/>
+            
             </div>
+            <Footer/>
         </>
 
     )
