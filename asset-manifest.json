@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/learnyard/static/css/main.4a378909.css",
-    "main.js": "/learnyard/static/js/main.6f21c5ed.js",
+    "main.css": "/learnyard/static/css/main.40b039f0.css",
+    "main.js": "/learnyard/static/js/main.c9ccb784.js",
     "static/js/787.c4f688cf.chunk.js": "/learnyard/static/js/787.c4f688cf.chunk.js",
-    "static/media/1.png": "/learnyard/static/media/1.541b08a7cf321699e421.png",
-    "static/media/3.png": "/learnyard/static/media/3.104b8a423e39fef1e761.png",
-    "static/media/2.png": "/learnyard/static/media/2.89c400984e31db3d11a7.png",
-    "static/media/6.jpg": "/learnyard/static/media/6.56cf4000a847ccc5e18e.jpg",
+    "static/media/1.png": "/learnyard/static/media/1.7eabe147a39a9933054f.png",
+    "static/media/3.png": "/learnyard/static/media/3.2938f9ac5ee6bf07c23f.png",
+    "static/media/2.png": "/learnyard/static/media/2.bafec743c44a06f52ddd.png",
+    "static/media/6.jpg": "/learnyard/static/media/6.584cf8c88897e28ee502.jpg",
     "static/media/19.jpg": "/learnyard/static/media/19.46a7c87061ecd0dafec3.jpg",
     "static/media/lp1.jpg": "/learnyard/static/media/lp1.46a7c87061ecd0dafec3.jpg",
     "static/media/17.jpg": "/learnyard/static/media/17.7bc243112558475465c9.jpg",
@@ -14,6 +14,7 @@
     "static/media/20.jpg": "/learnyard/static/media/20.02a2d7b8b18622bd1f03.jpg",
     "static/media/5.jpg": "/learnyard/static/media/5.79a5b0a3557c7ee1d3b6.jpg",
     "static/media/22.jpg": "/learnyard/static/media/22.9b5f0952a31a81e8f926.jpg",
+    "static/media/23.jpg": "/learnyard/static/media/23.1b740ce561c8f4517304.jpg",
     "static/media/4.jpg": "/learnyard/static/media/4.1bee28ebd245ea0d4917.jpg",
     "static/media/18.jpg": "/learnyard/static/media/18.49c77bbbd44c284d3d17.jpg",
     "static/media/21.jpg": "/learnyard/static/media/21.c3ae6854b8e7e2e9d827.jpg",
@@ -44,12 +45,12 @@
     "static/media/slick.ttf": "/learnyard/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/learnyard/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/learnyard/index.html",
-    "main.4a378909.css.map": "/learnyard/static/css/main.4a378909.css.map",
-    "main.6f21c5ed.js.map": "/learnyard/static/js/main.6f21c5ed.js.map",
+    "main.40b039f0.css.map": "/learnyard/static/css/main.40b039f0.css.map",
+    "main.c9ccb784.js.map": "/learnyard/static/js/main.c9ccb784.js.map",
     "787.c4f688cf.chunk.js.map": "/learnyard/static/js/787.c4f688cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a378909.css",
-    "static/js/main.6f21c5ed.js"
+    "static/css/main.40b039f0.css",
+    "static/js/main.c9ccb784.js"
   ]
 }
