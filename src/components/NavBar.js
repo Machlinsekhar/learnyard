@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 
 // Import your logo file
 import logo from '../images/logo.png';
+import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   const [value, setValue] = React.useState('one');
@@ -14,10 +15,11 @@ export default function NavBar() {
   };
 
   return (
-    <Box sx={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', backgroundColor:'#DDE3EB', height: '60px'}}>
+    <Box  sx={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', backgroundColor:'#ffff', height: '60px'}}>
       {/* Logo */}
+      <Link to="/">
       <img src={logo} alt="Logo" style={{ height: '50px', marginLeft: '20px' }} />
-
+      </Link>
       {/* Tabs */}
       <Tabs
         value={value}
@@ -26,10 +28,10 @@ export default function NavBar() {
         indicatorColor="secondary"
         aria-label="secondary tabs example"
       >
-        <Tab value="one" label="Home" />
-        <Tab value="two" label="About us" />
-        <Tab value="three" label="Centers" />
-        <Tab value="four" label="Photos" />
+       <Link to='/'> <Tab value="one" label="Home" /></Link>
+       <Link to='/aboutus'> <Tab value="two" label="About us" /></Link>
+       <Link to='/centers'>  <Tab value="three" label="Centers" /></Link>
+       <Link to='/photos'> <Tab value="four" label="Photos" /></Link>
         <Tab value="five" label="Events" />
         <Tab value="six" label="Social Responsibility" />
         <Tab value="seven" label="Contact Us" />

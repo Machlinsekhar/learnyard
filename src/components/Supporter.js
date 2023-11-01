@@ -5,7 +5,7 @@ import logo3 from '../images/logo-3.png';
 
 const Supporter = () => {
   return (
-    <div className="flex items-center justify-center space-x-4 bg-[#DDE3EB]">
+    <div className="flex font-gilroy-regular items-center justify-center space-x-4 bg-[#FEFEFE]">
       <img src={logo1} alt="Supporter 1" className="w-64" />
       <img src={logo2} alt="Supporter 2" className="w-34" />
       <img src={logo3} alt="Supporter 3" className="w-34" />

@@ -8,7 +8,7 @@ const Lprogram = ({ image, title, age, description }) => {
   };
 
   return (
-    <div className="max-w-[300px] min-w-[300px] ml-20 bg-white rounded-xl">
+    <div className="max-w-[300px] min-w-[300px] ml-20 bg-white rounded-xl font-gilroy-regular">
       <div className="border border-gray-300 rounded-xl p-4 shadow-lg ">
         <div className="flex justify-center">
           <img

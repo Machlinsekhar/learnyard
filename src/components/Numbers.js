@@ -54,13 +54,13 @@ function Numbers() {
       students === targetValues.students &&
       targetReached
     ) {
-      return `${number}+`;
+      return `${number}`;
     }
     return number;
   };
   
   return (
-    <div className=" mx-5 flex flex-row md:flex font-lexend md:flex-row justify-between md:max-w-[1300px] md:mx-auto pb-10 mt-8">
+    <div className=" mx-5 flex flex-row md:flex font-gilroy-regular md:flex-row justify-between md:max-w-[1300px] md:mx-auto pb-10 mt-8">
 
 <div className={`flex flex-col ${getNumberDisplayStyle(schools)}`}>
         <p className="md:text-4xl text-3xl text-[#FFA100] text-left font-bold">{getNumberDisplayText(schools)}</p>

@@ -5,14 +5,14 @@ import logo from '../images/logo-testimonial.png';
 const Testimonials = () => {
   return (
     <div>
-    <div class="px-4 pb-20 max-w-full sm:px-6 lg:px-8 bg-[#DDE3EB]">
+    <div class="px-4 pb-20 max-w-full sm:px-6 lg:px-8 bg-[#FEFEFE]">
         <div class="flex flex-col items-center">
             {/* <div class="text-center">
                 <p class="text-lg font-medium text-gray-600 font-pj">2,157 people have said how good Rareblocks</p>
                 <h2 class="mt-4 text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">Our happy clients say about us</h2>
             </div> */}
             <div className='pt-5'>
-            <TitleBlock title='OUR HAPPY CLIENTS SAY ABOUT US' />
+            <TitleBlock title='Our Happy Clients Say About Us' />
             </div>
 
             <div class="relative mt-10 md:mt-24 md:order-2">

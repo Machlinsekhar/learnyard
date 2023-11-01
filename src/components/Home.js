@@ -41,19 +41,19 @@ const Home = () => {
         {
             id: 1,
             image: experience,
-            title: 'EXPERIENCE',
+            title: 'Experience',
             description: 'With more than 15 years of experience in the sports and skill-based learning industry, the minds behind Learnyard felt the need to fill in the gap between a child’s holistic development and livelihood opportunities.'
         },
         {
             id: 2,
             image: skill,
-            title: 'SKILL',
+            title: 'Skill',
             description: 'Through scientific training, data-driven analysis, and integrated learning methods – we help the child discover their competency, skills and potential.'
         },
         {
             id: 3,
             image: support,
-            title: 'SUPPORT',
+            title: 'Support',
             description: 'Thereby, supporting them in nurturing their sporting talent and providing a launch pad for them to excel in it.'
         },
     ];
@@ -74,13 +74,13 @@ const Home = () => {
     return (
         <>
             <Hero />
-            <div className=' bg-[#DDE3EB] pt-10 px-5'>
+            <div className=' bg-[#FEFEFE] pt-10 px-5 font-gilroy-regular'>
                 <div className="grid grid-cols-2 gap-4 p-4">
                     <img src={coach} alt="Description of the image" className="w-300 h-auto" />
                     <div className="flex flex-col ">
                         <TitleBlock
                             className="text-2xl font-bold mb-4"
-                            title="MAKE A DIFFERENCE IN YOUR CHILD'S LIFE"
+                            title="Make a Difference In Your Child's Life"
                             subtitle="Every child possesses unique physical and mental capabilities. These special abilities get enhanced when the brain cells are actively channelised from the initial years of birth. Hence, the wisest move a parent can take is to allow their child to start early. At Learnyard, we identify your child’s potential and drive their growth towards different attributes of motor skills development and educational proficiency, for them to Make A Mark In Life."
                         />
                         <div className='mt-20 flex justify-center '>
@@ -101,14 +101,14 @@ const Home = () => {
 
                     <TitleBlock
 
-                        title="OUR PROGRAMS"
+                        title="Our Programs"
                     />
                 </div>
                 <div className='flex flex-row justify-left ml-32'>
                     <div className='flex flex-column items-center'>
                         <ProgramCard image={program2} />
                         <div>
-                            <h1 className='text-xl font-semibold mb-3 text-[#070a47] mt-4' style={{ fontWeight: '700' }}>AFTER SCHOOL PROGRAMS:</h1>
+                            <h1 className='text-xl font-semibold mb-3 text-[#070a47] mt-4' style={{ fontWeight: '700' }}>After School Programs:</h1>
                             <p className='text-[#2f3159] text-lg mr-10'>The Sports program provides an opportunity for children to take part in competitive sport at multiple levels</p>
                             <div className='mt-8 mb-40 flex justify-center '>
                             <Button variant="contained" style={buttonStyle1}>Read More</Button>
@@ -121,7 +121,7 @@ const Home = () => {
                     <div className='flex flex-column items-center ml-32  mr-10'>
                         <div>
 
-                            <h1 className='text-xl font-semibold mb-3 text-[#070a47] mt-4' style={{ fontWeight: '700' }}>IN SCHOOL PROGRAMS:</h1>
+                            <h1 className='text-xl font-semibold mb-3 text-[#070a47] mt-4' style={{ fontWeight: '700' }}>In School Programs:</h1>
                             <p className='text-[#2f3159] text-lg mr-5'>Integrate our structured sports curriculum in your school for the overall health and fitness of the children.</p>
                             <div className='mt-8 flex justify-center '>
                             <Button variant="contained" style={buttonStyle1}>Read More</Button>
@@ -132,7 +132,7 @@ const Home = () => {
                 </div>
 
                 <TitleBlock
-                    title='WHY DO WE DO WHAT WE DO AND HOW?'
+                    title='Why Do We Do What We Do And How?'
 
 
                 />
@@ -146,7 +146,7 @@ const Home = () => {
                 {/* <TitleBlock title='SO FAR..' 
                             subtitle='Leaving Positive Footprints Across'/> */}
                 <Numbers  />
-                <TitleBlock
+              {/*   <TitleBlock
                     title='THE LEARNYARD PROGRAMS'
                     subtitle='Through our network of excellence centres in Navi Mumbai and Thane, we focus on Kinesthetic Learning Styles – because a practical approach enables the child to put their learning into practice as a life skill.'
                 />
@@ -167,9 +167,9 @@ const Home = () => {
                         age=' 4 to 10 Years '
                         description=' Identifying raw talent from peers and encouraging them' />
                 </div>
-                
+                 */}
 
-                <TitleBlock title='LIFE AT LEARNYARD'
+                <TitleBlock title='Life At Learnyard'
                             subtitle='Our training centres boast of an environment that allows a child to become a lifelong learner of Sports, Fitness and Education.' />
 
               <Image/>  
@@ -178,7 +178,7 @@ const Home = () => {
             <Supporter/>
             
             </div>
-            <Footer/>
+           
         </>
 
     )

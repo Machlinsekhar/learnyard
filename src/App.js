@@ -3,6 +3,11 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
+import AboutUs from './components/AboutUs';
+import Centers from './components/Centers';
+import Photos from './components/Photos';
+import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -23,10 +28,22 @@ function App() {
     };
   }, [prevScrollPos, visible]);
   return (
+
     <div className="App">
-     <NavBar isVisible={visible} /> 
-      <Home/>
-      
+      <Router>
+        <NavBar isVisible={visible} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutus" element={<AboutUs />} />/
+          <Route path="/centers" element={<Centers />} />
+          <Route path="/photos" element={<Photos />} />
+           {/*<Route path="/" element={<Events />} />
+          <Route path="/" element={<Social />} />
+          <Route path="/" element={<ContactUs />} /> */}
+          
+        </Routes>
+        <Footer/>
+      </Router>
     </div>
   );
 }

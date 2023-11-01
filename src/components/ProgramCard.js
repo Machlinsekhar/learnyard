@@ -8,7 +8,7 @@ const  ProgramCard = ({ image, title, description }) => {
   };
 
   return (
-    <div className="max-w-[800px] min-w-[300px] mr-10  rounded-lg">
+    <div className="max-w-[800px] min-w-[300px] mr-10 font-gilroy-regular rounded-lg">
       <div className=" rounded-xl  shadow-xl ">
         <div className="flex justify-center">
           <img

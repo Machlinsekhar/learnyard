@@ -6,14 +6,14 @@ import bg from '../images/bg.jpg';
 const Hero = () => {
   return (
     
-    <div className="w-full-md h-full bg-no-repeat bg-cover bg-center md:px-16 pb-24 pt-5 flex" style={{ backgroundImage: `url(${bg})` }}>
+    <div className="w-full-md h-full bg-no-repeat bg-cover bg-center md:px-16 font-gilroy-regular flex" style={{ backgroundImage: `url(${bg})` }}>
       
       {/* Left half of the screen (3 parts out of 5) */}
       
       {/* Background content */}
-      <div className="w-3/5 p-10 mt-16">
+      <div className="w-3/5 pl-10 py-10 mt-16">
         <p className="font-lexend font-bold text-white text-2xl sm:text-4xl md:text-6xl">
-          BRINGING LEARNING TO LIFE THROUGH SPORTS
+          Bringing Learning To Life Through Sports
         </p>
 
         <p className="font-regular font-lexend text-[#545747] text-base sm:text-lg md:text-2xl mt-3 pb-5">
@@ -29,8 +29,8 @@ const Hero = () => {
       </div>
 
       {/* Right half of the screen (2 parts out of 5) */}
-      <div className="w-2/5 relative mb-50 md:block hidden">
-        <div className="absolute  right-0 w-3/4  lg:w-2/3  z-10">
+      <div className="w-2/5 relative md:block hidden">
+        <div className=" ml-16 w-3/4  lg:w-4/5  z-10">
           <CustomCarousel />
         </div>
       </div>

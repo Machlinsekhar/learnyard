@@ -43,7 +43,7 @@ const CustomCarousel = () => {
   //   return () => clearInterval(interval);
   // }, []);
   return (
-    <div className="Carousel justify-between items-center ">
+    <div className="Carousel justify-between items-center w-5/5">
       <Slider {...settings}>
         {images.map((img, idx) => (
           <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>

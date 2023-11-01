@@ -6,7 +6,7 @@ import "../Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#070a47] text-white p-8 font-lexend">
+    <footer className="bg-[#070a47] text-white p-8 font-gilroy-regular">
       <div className="container mx-auto flex flex-wrap">
         <div className="w-full  lg:w-1/3">
           <h2 className="text-xl font-semibold mb-2">Details</h2>
@@ -40,9 +40,9 @@ const Footer = () => {
           <h2 className="text-xl font-semibold mb-2">Links</h2>
           <ul>
             <li className='p-2'><a href="/" className="text-gray-200">Home</a></li>
-            <li className='p-2'><a href="/" className="text-gray-200">About Us</a></li>
-            <li className='p-2'><a href="/" className="text-gray-200">Centers</a></li>
-            <li className='p-2'><a href="/" className="text-gray-200">Photos</a></li>
+            <li className='p-2'><a href="/aboutus" className="text-gray-200">About Us</a></li>
+            <li className='p-2'><a href="/centers" className="text-gray-200">Centers</a></li>
+            <li className='p-2'><a href="/photos" className="text-gray-200">Photos</a></li>
             <li className='p-2'><a href="/" className="text-gray-200">Contact Us</a></li>
             <li className='p-2'><a href="/" className="text-gray-200">Social Responsibility</a></li>
             </ul>

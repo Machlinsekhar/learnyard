@@ -9,7 +9,7 @@
 }
 
 .slide img {
-  width: 90rem;
+  width: 200rem;
   margin: 0 auto;
   
 }
@@ -37,5 +37,5 @@
 } */
 
 .rounded-custom {
-    border-radius: 40px; /* Adjust the radius value as needed */
+    border-radius: 0px; /* Adjust the radius value as needed */
   }
